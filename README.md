@@ -1,12 +1,3 @@
 # Clustering-Algorithm
 
-This repository performs customer segmentation using the Mall Customers dataset.
-Clustering is done based on Annual Income and Spending Score.
-K-Means clustering is used for partition-based segmentation.
-DBSCAN is applied to identify density-based clusters and noise points.
-Hierarchical clustering includes both agglomerative and divisive methods.
-Dendrograms are used to visualize hierarchical relationships.
-Each algorithm reveals different customer behavior patterns.
-The project compares clustering performance and interpretability.
-Python and Scikit-learn are used for implementation.
-This work demonstrates unsupervised learning for business insights.
+This repository focuses on implementing and comparing multiple unsupervised clustering algorithms for customer segmentation and pattern discovery. The project applies clustering techniques on structured customer datasets to identify meaningful groups based on purchasing behavior and feature similarity. K-Means clustering is used for partition-based segmentation, providing clear and interpretable clusters. DBSCAN is applied to discover density-based clusters and to identify outliers or noise points within the data. Hierarchical clustering, including agglomerative and divisive approaches, is utilized to analyze hierarchical relationships between data points, with dendrograms used for visualization. Each algorithm highlights different aspects of customer behavior and data structure. The repository demonstrates how clustering methods vary in performance, scalability, and interpretability. All implementations are done using Python and Scikit-learn, showcasing practical applications of unsupervised learning for business analytics and decision-making.
